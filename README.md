@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 class UserController {
 -CreateUserService _createUserService
@@ -11,4 +12,6 @@ class CreateUserService {
 +CreateUserService(UserModel um, SendWelcomeEmailService es, Kafka k)
 +Call(string email, string username) User
 -CheckActiveUsers(List~User~ users) bool
-}# Debian_package_for_helloworld
+}
+```
+# Debian_package_for_helloworld
